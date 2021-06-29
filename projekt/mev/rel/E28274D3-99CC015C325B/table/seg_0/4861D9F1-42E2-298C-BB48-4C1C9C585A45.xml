@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4861D9F1-42E2-298C-BB48-4C1C9C585A45" name="transakcije">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>2D16510B-1ABF-710B-3D4C-25E565B3E875</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="datum_transakcije" id="FE943222-3C64-F934-0C63-D18B1EEF1C8F">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>713736A7-1DC0-AAB4-0D36-E12255461FED</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="korisnik_user_id" id="CA1FC504-C64B-2643-08FA-8930C8F8EEC9">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>65C07461-C98B-D81F-4029-F8E3AA07D789</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB04B2A7-8EA0-EAD8-3E9A-D13E5F765318" referredColumn="0CD9F4DF-613C-CB1A-5C17-B65B2B021980"/>
+</associations>
+</Column>
+<Column name="igre_id" id="1C0AC647-E48D-AB78-E54B-FCAB45F053E5">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>F9C56220-D2EC-F8D1-B37D-E1098D70F87E</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="166F32D3-5D38-567D-331A-1319BF38B445" referredColumn="047EF117-FB6A-4F34-B526-525FB637290A"/>
+</associations>
+</Column>
+<Column name="kartica_za_online_placanje_id_kartice" id="7349C5C9-53E1-61AD-3C8C-0F0FDC4D7A94">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>32AB0966-ABB0-A775-FABA-979E77A355CD</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9576A2E-AEAC-4AFE-6490-7249BF442125" referredColumn="8687B20E-1172-0A19-4F44-4475F51A3BBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B753DA04-2132-70D9-D957-787C294CC145" name="transakcije_PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>CBEB55A4-7CBB-099D-F110-F472E33ACC97</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA1FC504-C64B-2643-08FA-8930C8F8EEC9"/>
+<colUsage columnID="1C0AC647-E48D-AB78-E54B-FCAB45F053E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="953FF0BF-00BB-46E4-C27E-2C1F8DE2E68C" name="transakcije_igre_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>6F42CDBB-5620-B559-2EAE-4C5E5C68ADFA</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C0AC647-E48D-AB78-E54B-FCAB45F053E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBE27F6E-5842-F0B4-FD08-D59ACC2142DC" name="transakcije_kartica_za_online_placanje_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>42428E61-877F-FF0C-27E2-9C3793DB8E65</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7349C5C9-53E1-61AD-3C8C-0F0FDC4D7A94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8DE576A-6C60-BA99-DA3C-EF3D3644F179" name="transakcije_korisnik_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>7044BD21-3063-D505-DF0C-EE033D5228C3</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA1FC504-C64B-2643-08FA-8930C8F8EEC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

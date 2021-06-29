@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F21EAAA8-6F22-A13C-B6E0-D3DE990BACF3" name="korisnik">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:06:56 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_id" id="C4E449EB-968D-C990-FC87-25EA2152B856">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:17:57 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="D7A20721-9275-7348-2C18-274AC732C3A8">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:13:54 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="A240A12E-EAE1-DA7D-EBF7-FC664FA1CFC1">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:14:17 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_name" id="0033BA35-BEA9-2A92-CBC0-A749AEC000B3">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:14:39 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_rodenja" id="31DDEB41-158D-D0FE-02E3-D6B30357D334">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:14:57 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password(encripted)" id="9D499015-0073-6A4A-82B5-98482D0EB8A2">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-19 00:15:41 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_isteka_ps_plus" id="0119D98C-47D1-5F5D-09B8-612A928FA73A">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-25 23:57:50 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="2986B16B-B2EF-CA8F-21D5-5DB67354B05B">
+<createdBy>kruno</createdBy>
+<createdTime>2020-07-01 15:27:42 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2379F7C-3A18-6303-A600-304C16C12BDB" name="korisnik PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:18:16 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4E449EB-968D-C990-FC87-25EA2152B856</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

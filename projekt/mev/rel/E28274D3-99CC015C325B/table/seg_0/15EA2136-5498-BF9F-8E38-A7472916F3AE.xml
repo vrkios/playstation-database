@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15EA2136-5498-BF9F-8E38-A7472916F3AE" name="osvojeni_trofeji">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>119D7C09-0E3C-917B-0C63-7D312CC5A106</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="korisnik_user_id" id="5DCF2C27-8656-3860-243D-D65B76EF9B31">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>8AB46949-E163-063C-5AE1-FC05FA53D6DC</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D288F79-C456-E8EB-69C8-11CE0B4246F7" referredColumn="0CD9F4DF-613C-CB1A-5C17-B65B2B021980"/>
+</associations>
+</Column>
+<Column name="popis_tofeja_ID_trofeja" id="5D366F90-7FDC-86F1-A7A7-D9B9FF3D797A">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>614AC78B-B5CC-5F54-2FC0-1E6EE75EB43E</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E52B5A55-ECD0-A1E1-BE17-0DB382A5C647" referredColumn="D42A0ABD-C76A-B05F-30A3-DC2E24D143BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66147DC8-98B7-E122-275D-17F584BD24DF" name="osvojeni_trofeji_PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>9890CE20-FE18-571F-D9EE-968E8B205128</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DCF2C27-8656-3860-243D-D65B76EF9B31"/>
+<colUsage columnID="5D366F90-7FDC-86F1-A7A7-D9B9FF3D797A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="083D3C14-14A9-EF05-CA88-00C0A3B52978" name="osvojeni_trofeji_korisnik_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>CC2ACDEF-DFE8-4D40-8A7C-3B30E65F57D1</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DCF2C27-8656-3860-243D-D65B76EF9B31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FF6F9F9-859A-4060-D7C7-2DBE737DAA19" name="osvojeni_trofeji_popis_tofeja_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>172CBB9E-F8C1-BEC3-582E-3C9C15AFE488</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D366F90-7FDC-86F1-A7A7-D9B9FF3D797A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

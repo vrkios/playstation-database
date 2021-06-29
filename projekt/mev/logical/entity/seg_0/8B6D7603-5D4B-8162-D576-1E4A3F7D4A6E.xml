@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B6D7603-5D4B-8162-D576-1E4A3F7D4A6E" name="streaming_sites">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:51:46 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="8CBA2349-2646-665F-06E1-E8878D04A5A8">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:57:21 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="7E6DD04F-26DF-48B2-56B0-636EB44DBDF6">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:57:38 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B52445A-D3E7-3ED6-2EAB-91C35A26FE9D" name="streaming_sites PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:57:31 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CBA2349-2646-665F-06E1-E8878D04A5A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

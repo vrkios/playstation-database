@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6D02462-3ABC-B1E5-C1D0-214EACAA6203" containerWithKeyObject="5CB88610-3B1C-38BD-5A58-16498165A916" localFKIndex="80644312-E708-73ED-E5D2-023B35783768" name="events_igre_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>EDBB2F10-DC22-C377-15BF-515AF10A9E78</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>igre</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0EAC0082-4443-3102-862E-56CE0392B614</referredTableID>
+<keyObject>A4788AD6-A577-76A1-65E9-2209BFB46782</keyObject>
+<referredKeyID>A4788AD6-A577-76A1-65E9-2209BFB46782</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

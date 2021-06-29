@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="119D7C09-0E3C-917B-0C63-7D312CC5A106" name="osvojeni_trofeji">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-19 00:09:09 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_id" id="8AB46949-E163-063C-5AE1-FC05FA53D6DC">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-19 00:09:20 UTC</createdTime>
+<generatorID>CC2ACDEF-DFE8-4D40-8A7C-3B30E65F57D1</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>C4E449EB-968D-C990-FC87-25EA2152B856</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_trofeja" id="614AC78B-B5CC-5F54-2FC0-1E6EE75EB43E">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-24 22:28:54 UTC</createdTime>
+<generatorID>172CBB9E-F8C1-BEC3-582E-3C9C15AFE488</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>4E59B1D3-A2D3-5076-1558-970FE2508354</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9890CE20-FE18-571F-D9EE-968E8B205128" name="trofeji PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-19 00:09:23 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8AB46949-E163-063C-5AE1-FC05FA53D6DC</attributeRef>
+<attributeRef>614AC78B-B5CC-5F54-2FC0-1E6EE75EB43E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E371780C-28A3-CB56-6478-ABB923EDD74C" name="kartica za online placanje">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:19:20 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kartice" id="9E52B16B-9282-89F3-4540-0617B3F24538">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:46:57 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="59DC1CD8-2E19-AE83-09EF-4C9F33D3DCC5">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:20:31 UTC</createdTime>
+<generatorID>E19D585E-6F99-CC3C-3E26-3AB32A7C9D63</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>C4E449EB-968D-C990-FC87-25EA2152B856</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj kartice" id="89AC3C2B-EBF3-EDD7-11FE-6B8924483479">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:30:53 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="godina_istjecanja" id="68AD67CD-C6AC-4DA5-2EA5-4EC89B58C473">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:31:08 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mjesec_istjecanja" id="1194187B-67AE-BDC9-C5D5-65F1F873DD58">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:46:21 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrsta" id="977A92E7-8F13-3E2A-A426-2377EBEF3845">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-24 22:22:45 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="164FC589-697D-1AE3-EC5A-275506DB0936" name="kartica za online placanje PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:47:38 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E52B16B-9282-89F3-4540-0617B3F24538</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

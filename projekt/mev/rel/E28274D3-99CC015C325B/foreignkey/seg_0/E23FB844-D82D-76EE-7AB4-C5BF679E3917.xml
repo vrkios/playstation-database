@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E23FB844-D82D-76EE-7AB4-C5BF679E3917" containerWithKeyObject="1BB0EBDC-56A3-D0B4-D92D-37E0C2F6ABAA" localFKIndex="9B7C62D1-72B9-0852-02FE-323F4A033F81" name="membership_streaming_sites_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>2167A0C0-357E-B404-EF66-AF45058C21CB</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>streaming_sites</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE18C74B-56FD-8F52-9B14-F3EF72076C3E</referredTableID>
+<keyObject>B70FA372-A752-384E-5673-50BDA5C91325</keyObject>
+<referredKeyID>B70FA372-A752-384E-5673-50BDA5C91325</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D288F79-C456-E8EB-69C8-11CE0B4246F7" containerWithKeyObject="15EA2136-5498-BF9F-8E38-A7472916F3AE" localFKIndex="083D3C14-14A9-EF05-CA88-00C0A3B52978" name="osvojeni_trofeji_korisnik_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>CC2ACDEF-DFE8-4D40-8A7C-3B30E65F57D1</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>korisnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D958F300-909E-5E71-2CD4-8525F9D9D743</referredTableID>
+<keyObject>FD870E3B-86F9-DBB2-006F-D9607015602D</keyObject>
+<referredKeyID>FD870E3B-86F9-DBB2-006F-D9607015602D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>user_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

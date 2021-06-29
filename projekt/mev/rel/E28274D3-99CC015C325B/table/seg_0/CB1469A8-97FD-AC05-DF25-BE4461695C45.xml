@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB1469A8-97FD-AC05-DF25-BE4461695C45" name="enrolment">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>9DAFC11C-87FD-FB57-F95B-BAC63063FF0D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="communities_ID" id="0260E3A1-07E3-5782-0BC2-DDCA9DB7BB6E">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>4F032B56-06BB-EC43-69C1-4C052A2D2BBB</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC033AB2-C4AA-584D-D453-C499B13DC7B8" referredColumn="82453CC7-07B6-2264-4FD4-A02186C0A607"/>
+</associations>
+</Column>
+<Column name="korisnik_user_id" id="939795D1-FF80-1F04-540D-C64915548F14">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>A2C9A604-F54E-4B0D-2F14-3D5972758E0D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBECB461-9BAD-141D-844C-E490A1894D51" referredColumn="0CD9F4DF-613C-CB1A-5C17-B65B2B021980"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21898965-289B-B3B3-9463-8D3EED689D56" name="enrolment_PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>44C6CEFD-1A25-2B80-2F18-EBD2B3F17F20</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0260E3A1-07E3-5782-0BC2-DDCA9DB7BB6E"/>
+<colUsage columnID="939795D1-FF80-1F04-540D-C64915548F14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF8B53EE-7EB2-5B7F-EAFF-67B65B6F0EA8" name="enrolment_communities_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>4038A7CF-9FBE-982A-5387-F21EA2121C72</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0260E3A1-07E3-5782-0BC2-DDCA9DB7BB6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCF979C2-0189-5AC0-9FB9-D94CC6950D49" name="enrolment_korisnik_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>45A0B243-620D-8E93-87F1-DBFD845E8EB6</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="939795D1-FF80-1F04-540D-C64915548F14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FC80D49-BC66-F88C-0032-39250246B3F2" name="sudjelovanje">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-25 23:58:22 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_id" id="92D678CF-8474-943D-534D-076CCCAC533E">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-25 23:58:45 UTC</createdTime>
+<generatorID>C527BB9F-FBDC-C99A-D1BB-FE297B67E7C8</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>C4E449EB-968D-C990-FC87-25EA2152B856</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="4DA0D6DB-1525-6045-92E4-0C9BC241D9C5">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-25 23:58:53 UTC</createdTime>
+<generatorID>D92D1793-1F6F-62B6-38BE-227DF63E1E2D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>6E6EE315-9394-D94B-BE0D-D46253588B45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDBE3BB3-8530-4E1A-494B-2EFD1579B113" name="sudjelovanje PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-25 23:58:49 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92D678CF-8474-943D-534D-076CCCAC533E</attributeRef>
+<attributeRef>4DA0D6DB-1525-6045-92E4-0C9BC241D9C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

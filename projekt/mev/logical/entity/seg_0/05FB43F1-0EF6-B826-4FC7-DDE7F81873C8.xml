@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05FB43F1-0EF6-B826-4FC7-DDE7F81873C8" name="membership">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:56:42 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datum_isticanja" id="3EA17ECC-B4AD-0BD9-9221-ED8369FFFD01">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:57:06 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="113E6E08-33F3-4913-66EB-F362F43DC35C">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:58:45 UTC</createdTime>
+<generatorID>2167A0C0-357E-B404-EF66-AF45058C21CB</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>8CBA2349-2646-665F-06E1-E8878D04A5A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="24F6CA92-F284-2CDA-4AA5-622B7D4B8CE8">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:59:15 UTC</createdTime>
+<generatorID>9A97C8F9-A038-10A5-E881-589C395159B5</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>C4E449EB-968D-C990-FC87-25EA2152B856</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12050BCE-4335-C0EF-0A94-22D7D7E58DD1" name="membership PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:58:53 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>113E6E08-33F3-4913-66EB-F362F43DC35C</attributeRef>
+<attributeRef>24F6CA92-F284-2CDA-4AA5-622B7D4B8CE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

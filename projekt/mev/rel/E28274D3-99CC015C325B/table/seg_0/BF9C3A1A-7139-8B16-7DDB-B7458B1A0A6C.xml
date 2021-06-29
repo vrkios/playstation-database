@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF9C3A1A-7139-8B16-7DDB-B7458B1A0A6C" name="friend_list">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>EE138F4F-B714-2188-2828-8DC54ABA0078</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="korisnik_user_id" id="F80E17FA-3CED-93B0-08BB-9E2AFA2EA4A3">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>62A32FD9-309B-2434-FA78-8C3C2B927FB4</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8C9061E-701A-1C57-3148-49BF4B652B48" referredColumn="0CD9F4DF-613C-CB1A-5C17-B65B2B021980"/>
+</associations>
+</Column>
+<Column name="korisnik_user_id2" id="8188F1E3-E454-BB2F-0447-5E7583AF9795">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>6925CADB-C693-E08F-48FB-873E4663C1DD</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B135AB61-DDCC-77C6-FB6D-7321A19592C2" referredColumn="0CD9F4DF-613C-CB1A-5C17-B65B2B021980"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D019323-DA7E-0B34-F467-762AE67A8317" name="friend_list_PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>B7440EF6-22F9-4B19-01E1-0F379707CC0D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8188F1E3-E454-BB2F-0447-5E7583AF9795"/>
+<colUsage columnID="F80E17FA-3CED-93B0-08BB-9E2AFA2EA4A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E83530E-DE9F-0DF3-D459-B18982B69711" name="friend_list_korisnik_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>CFB70BB7-223B-A3E0-252C-4399D77209E3</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F80E17FA-3CED-93B0-08BB-9E2AFA2EA4A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6524403D-BD6E-80BA-57DF-436329140537" name="friend_list_korisnik_FKv1">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>20A90D64-D7D8-5C00-EF5F-3285FF48BAFB</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8188F1E3-E454-BB2F-0447-5E7583AF9795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

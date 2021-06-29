@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31C7FB87-849A-17FE-3406-1D4EBC498F64" name="sudjelovanje">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>5FC80D49-BC66-F88C-0032-39250246B3F2</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="korisnik_user_id" id="24FBA145-C8FA-179D-E112-E28A2B0043B2">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>92D678CF-8474-943D-534D-076CCCAC533E</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0FA76DC-B65A-212D-3634-B367F3033A86" referredColumn="0CD9F4DF-613C-CB1A-5C17-B65B2B021980"/>
+</associations>
+</Column>
+<Column name="events_ID" id="C3AAD7C8-6FCF-6DAD-072A-74ADE1953EC3">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>4DA0D6DB-1525-6045-92E4-0C9BC241D9C5</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B26F424-F66C-4069-E4CB-CC593518D32B" referredColumn="F19B4326-F063-EB46-00C4-D1E1EA9AD323"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24CFC41F-91BF-9536-FA29-F43B07B02DE6" name="sudjelovanje_PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>BDBE3BB3-8530-4E1A-494B-2EFD1579B113</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24FBA145-C8FA-179D-E112-E28A2B0043B2"/>
+<colUsage columnID="C3AAD7C8-6FCF-6DAD-072A-74ADE1953EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="776EA5D8-D7AE-7A77-1068-D0686678D8E3" name="sudjelovanje_korisnik_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>C527BB9F-FBDC-C99A-D1BB-FE297B67E7C8</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24FBA145-C8FA-179D-E112-E28A2B0043B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB74D1BF-DF75-6D54-FCBF-3AC2D1DD9DAF" name="sudjelovanje_events_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>D92D1793-1F6F-62B6-38BE-227DF63E1E2D</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3AAD7C8-6FCF-6DAD-072A-74ADE1953EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

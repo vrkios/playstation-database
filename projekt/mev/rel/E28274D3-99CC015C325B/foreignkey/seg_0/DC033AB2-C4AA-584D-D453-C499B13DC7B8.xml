@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC033AB2-C4AA-584D-D453-C499B13DC7B8" containerWithKeyObject="CB1469A8-97FD-AC05-DF25-BE4461695C45" localFKIndex="EF8B53EE-7EB2-5B7F-EAFF-67B65B6F0EA8" name="enrolment_communities_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>4038A7CF-9FBE-982A-5387-F21EA2121C72</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>communities</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E4825129-2CFE-7E3C-83A7-94E69F7143B0</referredTableID>
+<keyObject>F5FE350A-14A0-3CC0-AF6F-F327AA9F0F65</keyObject>
+<referredKeyID>F5FE350A-14A0-3CC0-AF6F-F327AA9F0F65</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

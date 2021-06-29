@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CB88610-3B1C-38BD-5A58-16498165A916" name="events">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>1EDEF21D-254A-FE4E-9487-898D7BBB3AFC</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F19B4326-F063-EB46-00C4-D1E1EA9AD323">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>6E6EE315-9394-D94B-BE0D-D46253588B45</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_odrzavanja" id="CFB973BD-37F4-5A0A-F1C8-75B8A88BF5E0">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>3601DDE4-CAD5-AF28-7D70-E3A09CA541C5</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrijeme_odrzavanja" id="30B313B4-4451-7A38-D934-23F019FDC2C1">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>4980E8B4-FCB5-F533-4500-DEC0A9B9016E</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="igre_id" id="BAF5E498-EE9A-1292-7BE3-C61260914BAD">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>95CCAF47-4BDA-6FDE-63EB-7604E19BED12</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6D02462-3ABC-B1E5-C1D0-214EACAA6203" referredColumn="047EF117-FB6A-4F34-B526-525FB637290A"/>
+</associations>
+</Column>
+<Column name="name" id="C7711372-C0E3-88FE-8AC2-E43A309E5F53">
+<createdBy>kruno</createdBy>
+<createdTime>2020-07-01 23:36:44 UTC</createdTime>
+<generatorID>139C9D52-B66C-8731-7E8D-C619C6822852</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BAC4157-6004-E4A3-F09B-227EAFDEB426" name="events_PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>D51C6469-A606-A65B-82FC-6CAC59A5051C</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F19B4326-F063-EB46-00C4-D1E1EA9AD323"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80644312-E708-73ED-E5D2-023B35783768" name="events_igre_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>EDBB2F10-DC22-C377-15BF-515AF10A9E78</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAF5E498-EE9A-1292-7BE3-C61260914BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

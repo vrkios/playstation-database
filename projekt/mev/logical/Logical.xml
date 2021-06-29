@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7FAD0D89-2DF0-B3F0-6987-F519F1797CAC" mainViewID="8E47F1B2-4074-A6EE-EC82-297978D5B9CC">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:02:42 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

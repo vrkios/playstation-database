@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE138F4F-B714-2188-2828-8DC54ABA0078" name="friend_list">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:36:13 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_id" id="62A32FD9-309B-2434-FA78-8C3C2B927FB4">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:37:41 UTC</createdTime>
+<generatorID>CFB70BB7-223B-A3E0-252C-4399D77209E3</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>C4E449EB-968D-C990-FC87-25EA2152B856</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id1" id="6925CADB-C693-E08F-48FB-873E4663C1DD">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:38:33 UTC</createdTime>
+<generatorID>20A90D64-D7D8-5C00-EF5F-3285FF48BAFB</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>C4E449EB-968D-C990-FC87-25EA2152B856</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7440EF6-22F9-4B19-01E1-0F379707CC0D" name="friend_list PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:40:18 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6925CADB-C693-E08F-48FB-873E4663C1DD</attributeRef>
+<attributeRef>62A32FD9-309B-2434-FA78-8C3C2B927FB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E52B5A55-ECD0-A1E1-BE17-0DB382A5C647" containerWithKeyObject="15EA2136-5498-BF9F-8E38-A7472916F3AE" localFKIndex="1FF6F9F9-859A-4060-D7C7-2DBE737DAA19" name="osvojeni_trofeji_popis_tofeja_FK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-06-24 22:49:10 UTC</createdTime>
+<generatorID>172CBB9E-F8C1-BEC3-582E-3C9C15AFE488</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<referredTableLongName>popis_tofeja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8B14383F-613F-3361-8D5B-EC0ABE9E865A</referredTableID>
+<keyObject>0FECF9A7-CCF7-1FCE-A353-D16AC9F2C2E2</keyObject>
+<referredKeyID>0FECF9A7-CCF7-1FCE-A353-D16AC9F2C2E2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_trofeja</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

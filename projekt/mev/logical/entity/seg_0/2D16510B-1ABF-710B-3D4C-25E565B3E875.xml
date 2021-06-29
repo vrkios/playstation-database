@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D16510B-1ABF-710B-3D4C-25E565B3E875" name="transakcije">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:09:24 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datum_transakcije" id="713736A7-1DC0-AAB4-0D36-E12255461FED">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:15:36 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="65C07461-C98B-D81F-4029-F8E3AA07D789">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:28:44 UTC</createdTime>
+<generatorID>7044BD21-3063-D505-DF0C-EE033D5228C3</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>C4E449EB-968D-C990-FC87-25EA2152B856</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="F9C56220-D2EC-F8D1-B37D-E1098D70F87E">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:29:48 UTC</createdTime>
+<generatorID>6F42CDBB-5620-B559-2EAE-4C5E5C68ADFA</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>6D40BAC0-483C-B4B5-3705-60BB998CD11F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kartice" id="32AB0966-ABB0-A775-FABA-979E77A355CD">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-26 00:05:16 UTC</createdTime>
+<generatorID>42428E61-877F-FF0C-27E2-9C3793DB8E65</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>9E52B16B-9282-89F3-4540-0617B3F24538</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CBEB55A4-7CBB-099D-F110-F472E33ACC97" name="posjedovanje igara PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-18 23:43:53 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65C07461-C98B-D81F-4029-F8E3AA07D789</attributeRef>
+<attributeRef>F9C56220-D2EC-F8D1-B37D-E1098D70F87E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

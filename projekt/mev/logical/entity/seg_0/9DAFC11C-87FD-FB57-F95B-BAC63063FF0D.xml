@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DAFC11C-87FD-FB57-F95B-BAC63063FF0D" name="enrolment">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-19 00:06:24 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="4F032B56-06BB-EC43-69C1-4C052A2D2BBB">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-19 00:07:20 UTC</createdTime>
+<generatorID>4038A7CF-9FBE-982A-5387-F21EA2121C72</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>19914121-4A81-1C5F-E598-4842B5423D6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="A2C9A604-F54E-4B0D-2F14-3D5972758E0D">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-19 00:07:26 UTC</createdTime>
+<generatorID>45A0B243-620D-8E93-87F1-DBFD845E8EB6</generatorID>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<referedAttribute>C4E449EB-968D-C990-FC87-25EA2152B856</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44C6CEFD-1A25-2B80-2F18-EBD2B3F17F20" name="enrolment PK">
+<createdBy>kruno</createdBy>
+<createdTime>2020-05-19 00:07:22 UTC</createdTime>
+<ownerDesignName>mev</ownerDesignName>
+<engineerTo>
+<item key="E28274D3-3A54-1CD4-F4BB-99CC015C325B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4F032B56-06BB-EC43-69C1-4C052A2D2BBB</attributeRef>
+<attributeRef>A2C9A604-F54E-4B0D-2F14-3D5972758E0D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
